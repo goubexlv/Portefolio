@@ -33,3 +33,4 @@ jobs:
             docker stop portefolio-container || true
             docker rm portefolio-container || true
             docker run -d --name portefolio-container -p 80:80 portefolio
+
